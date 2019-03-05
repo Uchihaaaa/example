@@ -12,6 +12,7 @@
 	<artifactId>example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>example</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -42,6 +43,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>sateam</finalName>
 	</build>
 
 </project>
